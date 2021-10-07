@@ -1,13 +1,13 @@
-package com.example.registrtionloginsringboot;
+package com.example.registrationloginspringboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class RegistrtionLoginSringBootApplication {
+public class RegistrationLoginSpringBootApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(RegistrtionLoginSringBootApplication.class, args);
+        SpringApplication.run(RegistrationLoginSpringBootApplication.class, args);
     }
 
 }

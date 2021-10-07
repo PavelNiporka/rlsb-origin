@@ -1,4 +1,4 @@
-package com.example.registrtionloginsringboot.model;
+package com.example.registrationloginspringboot.model;
 
 import javax.persistence.*;
 import java.util.Collection;
@@ -20,6 +20,7 @@ public class User {
     private String email;
 
     private String password;
+
     @ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     @JoinTable(
             name = "users_roles",
@@ -35,6 +36,10 @@ public class User {
         this.email = email;
         this.password = password;
         this.roles = roles;
+    }
+
+    public User() {
+
     }
 
     public long getId() {
