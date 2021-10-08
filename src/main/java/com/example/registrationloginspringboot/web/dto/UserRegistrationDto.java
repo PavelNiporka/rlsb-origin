@@ -13,6 +13,10 @@ public class UserRegistrationDto {
         this.email = email;
     }
 
+    public UserRegistrationDto() {
+
+    }
+
     public String getFirstName() {
         return firstName;
     }
